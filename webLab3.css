@@ -1,0 +1,110 @@
+
+
+.table1, .table2{
+    border-spacing: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.table2{
+    border-bottom: 0;
+    height: 10em;
+}
+
+.whiteBlock{
+    background-color: white;
+    width: 5em;
+    display: block;
+}
+.leftDiv1{
+    width: 15em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    vertical-align: top;
+    height: 45em;
+    background-color:bisque;
+    text-align: center;
+}
+
+.rightDiv2{
+    vertical-align:top;
+    width: 55em;
+    height: 45em;
+    padding-left: -2em;
+    padding-right: -2em;
+    padding-top: -2em;
+    background-color: rgb(157, 207, 246);
+}
+.rightDiv2 div{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+}
+.rightDiv3{
+    width: 70em;
+    height: 10em; 
+    padding-left: 1em;
+    padding-right: 1em;
+    background-color: rgb(89, 141, 219);
+}
+
+.leftDiv4{
+    width: 20em;
+    height: 10em;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    background-color: rgb(120, 210, 120);
+}
+
+.rightDiv5{
+    vertical-align: middle;
+    width: 70em;
+    height: 10em;
+    padding-left: 1em;
+    padding-right: 1em;   
+    text-align: left;
+    background-color: rgb(89, 141, 219);
+}
+
+.menulist{
+    text-align: right;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+.menulist li{
+    list-style-type: none;
+    padding-top: 0.5em;
+}
+
+.menulist li a{
+    font-size: 1.5em;
+    background-color: rgb(243, 209, 75);
+    border-right: 0.2em solid rgb(111, 13, 13);
+}
+
+.header{
+    width: 60em;
+}
+#topHeader {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 12em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background-color: rgb(80, 36, 36);
+    opacity: 0.9;
+}
+
+#bottomHeader{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 12em;
+    height: 3em;
+    line-height: 3em;
+    text-align: center;
+    background-color: rgb(80, 36, 36);
+    opacity: 0.9;
+}
+
