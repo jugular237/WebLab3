@@ -1,28 +1,134 @@
+@media screen and (min-device-width: 600px){
+body{
+    justify-content: space-between;
+}
+.top, .bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.top{
+    flex-direction: row-reverse;
+}
+.leftDiv1{
+    display: flex;
+    
+    flex-direction: row;
+    min-height: 80vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color:bisque;
+    text-align: center;
+    height: 100%;
+    width: 20vw;
+}
+
+
+.rightDiv2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    min-height: 20vh;
+    text-align: right;
+    background-color: rgb(112, 160, 232);
+    width: 70vw;
+}
+
+.rightDiv3{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    min-height: 60vh;
+    text-align: center;
+    background-color: rgb(155, 200, 225);
+    height: 100%;
+    width: 70vw;
+}
+
+.leftDiv4{
+    min-height: 20vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-align: center;
+    background-color: rgb(120, 210, 120);
+    height: 100%;
+    width: 20vw;
+}
+
+.rightDiv5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-wrap:break-word;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    min-height: 20vh;
+    text-align: left;
+    background-color: rgb(112, 160, 232);
+    height: 100%;
+    width: 70vw;
+}
+
+.rightDiv5 div{
+    width: 70vw;
+}
+
+.menulist{
+    margin-top: 1px;
+    width: 50vw;
+}
+
+.menulist li{
+    list-style-type: none;
+    padding-top: 1vh;
+}
+
+.menulist li a{
+    font-size: 20px;
+    background-color: rgb(243, 209, 75);
+    border-right: 5px solid rgb(111, 13, 13);
+}
+
+#topHeader {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    width: 21vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 36, 36);
+    opacity: 0.9;
+}
+
+#bottomHeader{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: right;
+    width: 27vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(80, 36, 36);
+    opacity: 0.9;
+}
+}
+
+@media screen and (max-device-width: 600px){
+
 body{
     font-size: x-large;
 }
-.top, .bottom, .whiteBlock{
+.top, .bottom{
     display: flex;
-    justify-content: space-between;
     width:100%;
     flex-direction: column;
-}
-
-.WhiteBlock{
-    display: flex;
-    height: 5vh;
-}
-.footer{
-    font-size: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .leftDiv1{
     padding-left: 1vw;
     padding-right: 1vw;
-    background-color:bisque;
+    background-color: bisque;
     text-align: center;
     min-height: 20vh;
 }
@@ -47,6 +153,11 @@ body{
     background-color: rgb(155, 200, 225);
 }
 
+.bottom{
+    display: flex;
+    flex-direction: row;
+}
+
 .leftDiv4{
     min-height: 20vh;
     padding-left: 1vw;
@@ -54,6 +165,7 @@ body{
     text-align: center;
     background-color: rgb(120, 210, 120);
     flex-direction: row;
+    width: 25vw;
 }
 
 .rightDiv5{
@@ -66,8 +178,12 @@ body{
     min-height: 20vh;
     text-align: left;
     background-color: rgb(112, 160, 232);
+    width: 75vw;
+}
 
-    width: 60vw;
+.whiteBlock{
+    width: 100%;
+    height: 5vh;
 }
 
 .rightDiv5 div{
@@ -103,6 +219,7 @@ body{
 }
 
 #bottomHeader{
+    font-size: 70px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     float: right;
     width: 50vw;
@@ -112,4 +229,6 @@ body{
     justify-content: center;
     background-color: rgb(80, 36, 36);
     opacity: 0.9;
+}
+
 }
