@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 1000px){
+@media screen and (min-device-width: 1030px){
 body{
     justify-content: space-between;
 }
@@ -114,7 +114,7 @@ body{
 }
 }
 
-@media screen and (max-device-width: 1000px){
+@media screen and (max-device-width: 1030px){
 
 body{
     font-size: x-large;
